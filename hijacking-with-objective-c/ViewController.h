@@ -8,8 +8,13 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ViewController : NSViewController
+@interface ViewController : NSViewController{
 
+    pid_t pid;
+    
+    IBOutlet NSTextField *label_app_name;
+    IBOutlet NSPopUpButton *select_application;
+}
 
 @end
 
